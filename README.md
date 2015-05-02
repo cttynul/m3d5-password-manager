@@ -1,7 +1,9 @@
-##M3D5 Password Manager
-
+M3D5 Password Manager
+======
 ###Introduction
 M3D5 Password Manager is a just another password manager that allows you to collect your personal data into a txt files hashed in MD5 with a personal key.
+
+![m3d5passwordmanager](http://i.imgur.com/CaaUQrv.jpg)
 
 ###Download and installation
 1) Download from 
