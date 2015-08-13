@@ -30,6 +30,7 @@ Partial Class Decrypter
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.ChecktxtStatusToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Donate = New System.Windows.Forms.ToolStripLabel()
         Me.HelpAb = New System.Windows.Forms.ToolStripLabel()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Dropbox_De = New System.Windows.Forms.Button()
@@ -66,7 +67,6 @@ Partial Class Decrypter
         Me.Yahoo_En = New System.Windows.Forms.Button()
         Me.Yahoo = New System.Windows.Forms.TextBox()
         Me.Separator = New System.Windows.Forms.Label()
-        Me.Donate = New System.Windows.Forms.ToolStripLabel()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
@@ -99,7 +99,6 @@ Partial Class Decrypter
         Me.Amazon.Location = New System.Drawing.Point(62, 44)
         Me.Amazon.Multiline = True
         Me.Amazon.Name = "Amazon"
-        Me.Amazon.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Amazon.Size = New System.Drawing.Size(386, 19)
         Me.Amazon.TabIndex = 0
         Me.Amazon.Text = "Click decrypt to show password"
@@ -136,25 +135,31 @@ Partial Class Decrypter
         '
         Me.ToolStripLabel1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChecktxtStatusToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(37, 22)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(38, 22)
         Me.ToolStripLabel1.Text = "File"
         '
         'ChecktxtStatusToolStripMenuItem
         '
         Me.ChecktxtStatusToolStripMenuItem.Name = "ChecktxtStatusToolStripMenuItem"
-        Me.ChecktxtStatusToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.ChecktxtStatusToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.ChecktxtStatusToolStripMenuItem.Text = "Check data status"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'Donate
+        '
+        Me.Donate.Name = "Donate"
+        Me.Donate.Size = New System.Drawing.Size(45, 22)
+        Me.Donate.Text = "Donate"
         '
         'HelpAb
         '
         Me.HelpAb.Name = "HelpAb"
-        Me.HelpAb.Size = New System.Drawing.Size(35, 22)
+        Me.HelpAb.Size = New System.Drawing.Size(40, 22)
         Me.HelpAb.Text = "About"
         '
         'LinkLabel1
@@ -190,7 +195,6 @@ Partial Class Decrypter
         Me.Dropbox.Location = New System.Drawing.Point(62, 74)
         Me.Dropbox.Multiline = True
         Me.Dropbox.Name = "Dropbox"
-        Me.Dropbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Dropbox.Size = New System.Drawing.Size(386, 19)
         Me.Dropbox.TabIndex = 10
         Me.Dropbox.Text = "Click decrypt to show password"
@@ -218,7 +222,6 @@ Partial Class Decrypter
         Me.FB.Location = New System.Drawing.Point(62, 104)
         Me.FB.Multiline = True
         Me.FB.Name = "FB"
-        Me.FB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.FB.Size = New System.Drawing.Size(386, 19)
         Me.FB.TabIndex = 15
         Me.FB.Text = "Click decrypt to show password"
@@ -246,7 +249,6 @@ Partial Class Decrypter
         Me.Google.Location = New System.Drawing.Point(62, 134)
         Me.Google.Multiline = True
         Me.Google.Name = "Google"
-        Me.Google.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Google.Size = New System.Drawing.Size(386, 19)
         Me.Google.TabIndex = 19
         Me.Google.Text = "Click decrypt to show password"
@@ -274,7 +276,6 @@ Partial Class Decrypter
         Me.Outlook.Location = New System.Drawing.Point(62, 253)
         Me.Outlook.Multiline = True
         Me.Outlook.Name = "Outlook"
-        Me.Outlook.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Outlook.Size = New System.Drawing.Size(386, 19)
         Me.Outlook.TabIndex = 35
         Me.Outlook.Text = "Click decrypt to show password"
@@ -302,7 +303,6 @@ Partial Class Decrypter
         Me.Paypal.Location = New System.Drawing.Point(62, 223)
         Me.Paypal.Multiline = True
         Me.Paypal.Name = "Paypal"
-        Me.Paypal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Paypal.Size = New System.Drawing.Size(386, 19)
         Me.Paypal.TabIndex = 31
         Me.Paypal.Text = "Click decrypt to show password"
@@ -330,7 +330,6 @@ Partial Class Decrypter
         Me.Twitter.Location = New System.Drawing.Point(62, 193)
         Me.Twitter.Multiline = True
         Me.Twitter.Name = "Twitter"
-        Me.Twitter.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Twitter.Size = New System.Drawing.Size(386, 19)
         Me.Twitter.TabIndex = 27
         Me.Twitter.Text = "Click decrypt to show password"
@@ -358,7 +357,6 @@ Partial Class Decrypter
         Me.Instagram.Location = New System.Drawing.Point(62, 163)
         Me.Instagram.Multiline = True
         Me.Instagram.Name = "Instagram"
-        Me.Instagram.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Instagram.Size = New System.Drawing.Size(386, 19)
         Me.Instagram.TabIndex = 24
         Me.Instagram.Text = "Click decrypt to show password"
@@ -414,7 +412,6 @@ Partial Class Decrypter
         Me.Github.Location = New System.Drawing.Point(62, 342)
         Me.Github.Multiline = True
         Me.Github.Name = "Github"
-        Me.Github.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Github.Size = New System.Drawing.Size(386, 19)
         Me.Github.TabIndex = 47
         Me.Github.Text = "Click decrypt to show password"
@@ -442,7 +439,6 @@ Partial Class Decrypter
         Me.CreditCard.Location = New System.Drawing.Point(62, 312)
         Me.CreditCard.Multiline = True
         Me.CreditCard.Name = "CreditCard"
-        Me.CreditCard.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.CreditCard.Size = New System.Drawing.Size(386, 19)
         Me.CreditCard.TabIndex = 43
         Me.CreditCard.Text = "Click decrypt to show password"
@@ -470,7 +466,6 @@ Partial Class Decrypter
         Me.Yahoo.Location = New System.Drawing.Point(62, 282)
         Me.Yahoo.Multiline = True
         Me.Yahoo.Name = "Yahoo"
-        Me.Yahoo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Yahoo.Size = New System.Drawing.Size(386, 19)
         Me.Yahoo.TabIndex = 40
         Me.Yahoo.Text = "Click decrypt to show password"
@@ -483,12 +478,6 @@ Partial Class Decrypter
         Me.Separator.Size = New System.Drawing.Size(16, 13)
         Me.Separator.TabIndex = 56
         Me.Separator.Text = "..."
-        '
-        'Donate
-        '
-        Me.Donate.Name = "Donate"
-        Me.Donate.Size = New System.Drawing.Size(42, 22)
-        Me.Donate.Text = "Donate"
         '
         'PictureBox9
         '

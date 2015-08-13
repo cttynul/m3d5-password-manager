@@ -34,13 +34,13 @@ Partial Class Login
         Me.CreateAccountToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AccountStatus = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.Donate = New System.Windows.Forms.ToolStripLabel()
         Me.HelpB = New System.Windows.Forms.ToolStripLabel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
-        Me.Donate = New System.Windows.Forms.ToolStripLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -86,50 +86,56 @@ Partial Class Login
         '
         Me.ToolStripLabel1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Help, Me.CloseProgram})
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(37, 22)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(38, 22)
         Me.ToolStripLabel1.Text = "File"
         '
         'Help
         '
         Me.Help.Name = "Help"
-        Me.Help.Size = New System.Drawing.Size(102, 22)
+        Me.Help.Size = New System.Drawing.Size(107, 22)
         Me.Help.Text = "About"
         '
         'CloseProgram
         '
         Me.CloseProgram.Name = "CloseProgram"
-        Me.CloseProgram.Size = New System.Drawing.Size(102, 22)
+        Me.CloseProgram.Size = New System.Drawing.Size(107, 22)
         Me.CloseProgram.Text = "Exit"
         '
         'AccountMenu
         '
         Me.AccountMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CreateAccountToolStripMenuItem, Me.AccountStatus})
         Me.AccountMenu.Name = "AccountMenu"
-        Me.AccountMenu.Size = New System.Drawing.Size(58, 22)
+        Me.AccountMenu.Size = New System.Drawing.Size(65, 22)
         Me.AccountMenu.Text = "Account"
         '
         'CreateAccountToolStripMenuItem
         '
         Me.CreateAccountToolStripMenuItem.Name = "CreateAccountToolStripMenuItem"
-        Me.CreateAccountToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
+        Me.CreateAccountToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
         Me.CreateAccountToolStripMenuItem.Text = "Create Account"
         '
         'AccountStatus
         '
         Me.AccountStatus.Name = "AccountStatus"
-        Me.AccountStatus.Size = New System.Drawing.Size(146, 22)
+        Me.AccountStatus.Size = New System.Drawing.Size(156, 22)
         Me.AccountStatus.Text = "Account Status"
         '
         'ToolStripLabel2
         '
         Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(43, 22)
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(46, 22)
         Me.ToolStripLabel2.Text = "License"
+        '
+        'Donate
+        '
+        Me.Donate.Name = "Donate"
+        Me.Donate.Size = New System.Drawing.Size(45, 22)
+        Me.Donate.Text = "Donate"
         '
         'HelpB
         '
         Me.HelpB.Name = "HelpB"
-        Me.HelpB.Size = New System.Drawing.Size(35, 22)
+        Me.HelpB.Size = New System.Drawing.Size(40, 22)
         Me.HelpB.Text = "About"
         '
         'Label2
@@ -158,8 +164,8 @@ Partial Class Login
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(442, 26)
         Me.Label4.TabIndex = 12
-        Me.Label4.Text = "If you don't have created an account yet                  to start using M3D5 Pas" & _
-    "sword Manager." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Account can be set up just one time, you must reinstall M3D5 PM " & _
+        Me.Label4.Text = "If you don't have created an account yet                  to start using M3D5 Pas" &
+    "sword Manager." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Account can be set up just one time, you must reinstall M3D5 PM " &
     "to reset your profile."
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
@@ -182,12 +188,6 @@ Partial Class Login
         Me.LinkLabel2.TabIndex = 14
         Me.LinkLabel2.TabStop = True
         Me.LinkLabel2.Text = "https://github.com/zegt"
-        '
-        'Donate
-        '
-        Me.Donate.Name = "Donate"
-        Me.Donate.Size = New System.Drawing.Size(42, 22)
-        Me.Donate.Text = "Donate"
         '
         'PictureBox1
         '

@@ -1,7 +1,10 @@
 ﻿'Copyright © 2015 Alessandro Celso
 'GNU General Public License v3
 
+Imports System.Net
+
 Public Class Login
+    Const InstalledVersion = 1.4
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         If Password.Text = My.Settings.Password Then
@@ -61,5 +64,18 @@ Public Class Login
     Private Sub Donate_Click(sender As Object, e As EventArgs) Handles Donate.Click
         Dim url As String = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P82RVZEYK4HEE"
         Process.Start(url)
+    End Sub
+
+    Private Sub CheckForUpdates()
+        Dim WebCl As New WebClient
+        Try
+            Dim OnlineVersion As Single = WebCl.DownloadString("https://raw.githubusercontent.com/zegt/m3d5-password-manager/master/Version.txt")
+            If InstalledVersion < OnlineVersion Then
+                MsgBox("A new Version of M3D5 Password Manager has been released. Check Github page to download it.", MsgBoxStyle.Information, "Update available!")
+            End If
+        Catch UpdateException As Exception
+            MsgBox(UpdateException, MsgBoxStyle.Critical, "Something went wrong :(")
+        End Try
+
     End Sub
 End Class

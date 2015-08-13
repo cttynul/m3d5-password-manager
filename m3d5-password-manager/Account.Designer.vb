@@ -92,8 +92,8 @@ Partial Class Account
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(338, 52)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Create your personal profile typing a master password (used to access " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "encrypt a" & _
-    "nd decrypt functions) and a personal key, used to encrypt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "your personal data." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & _
+        Me.Label3.Text = "Create your personal profile typing a master password (used to access " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "encrypt a" &
+    "nd decrypt functions) and a personal key, used to encrypt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "your personal data." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
     "You cant create more than one account."
         '
         'LinkLabel1
