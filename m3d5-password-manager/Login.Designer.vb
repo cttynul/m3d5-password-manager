@@ -74,6 +74,7 @@ Partial Class Login
         '
         'ToolStrip1
         '
+        Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.AccountMenu, Me.ToolStripLabel2, Me.Donate, Me.HelpB})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
@@ -91,14 +92,16 @@ Partial Class Login
         '
         'Help
         '
+        Me.Help.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Help.Name = "Help"
-        Me.Help.Size = New System.Drawing.Size(107, 22)
+        Me.Help.Size = New System.Drawing.Size(152, 22)
         Me.Help.Text = "About"
         '
         'CloseProgram
         '
+        Me.CloseProgram.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.CloseProgram.Name = "CloseProgram"
-        Me.CloseProgram.Size = New System.Drawing.Size(107, 22)
+        Me.CloseProgram.Size = New System.Drawing.Size(152, 22)
         Me.CloseProgram.Text = "Exit"
         '
         'AccountMenu
@@ -145,7 +148,7 @@ Partial Class Login
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(157, 26)
         Me.Label2.TabIndex = 9
-        Me.Label2.Text = "M3D5 Password Manager  v1.2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Published under GNU GPL v3"
+        Me.Label2.Text = "M3D5 Password Manager  v1.5" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Published under GNU GPL v3"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.Label2.UseMnemonic = False
         '
@@ -202,6 +205,7 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(478, 284)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.LinkLabel1)

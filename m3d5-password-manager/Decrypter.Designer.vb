@@ -123,6 +123,7 @@ Partial Class Decrypter
         '
         'ToolStrip1
         '
+        Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.Donate, Me.HelpAb})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
@@ -140,12 +141,14 @@ Partial Class Decrypter
         '
         'ChecktxtStatusToolStripMenuItem
         '
+        Me.ChecktxtStatusToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ChecktxtStatusToolStripMenuItem.Name = "ChecktxtStatusToolStripMenuItem"
         Me.ChecktxtStatusToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.ChecktxtStatusToolStripMenuItem.Text = "Check data status"
         '
         'ExitToolStripMenuItem
         '
+        Me.ExitToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
@@ -591,6 +594,7 @@ Partial Class Decrypter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(639, 530)
         Me.Controls.Add(Me.Separator)
         Me.Controls.Add(Me.PictureBox9)
@@ -643,10 +647,10 @@ Partial Class Decrypter
         Me.Controls.Add(Me.Amazon_De)
         Me.Controls.Add(Me.Amazon_En)
         Me.Controls.Add(Me.Amazon)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.MinimizeBox = False
         Me.Name = "Decrypter"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "M3D5 Password Manager"

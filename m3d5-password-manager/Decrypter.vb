@@ -413,4 +413,8 @@ Public Class Decrypter
     Private Sub Amazon_TextChanged(sender As Object, e As EventArgs) Handles Amazon.TextChanged
 
     End Sub
+
+    Private Sub ToolStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles ToolStrip1.ItemClicked
+
+    End Sub
 End Class

@@ -4,7 +4,7 @@
 Imports System.Net
 
 Public Class Login
-    Const InstalledVersion = 1.4
+    Const InstalledVersion = 1.5
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         If Password.Text = My.Settings.Password Then
@@ -78,4 +78,5 @@ Public Class Login
         End Try
 
     End Sub
+
 End Class

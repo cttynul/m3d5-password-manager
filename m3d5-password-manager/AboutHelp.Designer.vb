@@ -106,6 +106,7 @@ Partial Class AboutHelp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(307, 340)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -116,6 +117,8 @@ Partial Class AboutHelp
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "AboutHelp"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About"
