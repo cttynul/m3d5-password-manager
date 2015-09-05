@@ -1,7 +1,7 @@
 M3D5 Password Manager
 ======
 ###Introduction
-M3D5 Password Manager is a just another password manager that allows you to collect your personal data into a txt files hashed in MD5 with a personal key.
+M3D5 Password Manager is a just another password manager that allows you to collect your personal data into a file crypted in TripleDes.
 
 ![m3d5passwordmanager](http://i.imgur.com/ECeFIsq.png)
 
