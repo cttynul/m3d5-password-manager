@@ -1,4 +1,4 @@
-M3D5 Password Manager
+THIS VERSION IS OUTDATED, THERE WILL SOON A NEW RELEASE UNDER A NEW NAME
 ======
 ###Introduction
 M3D5 Password Manager is a just another password manager that allows you to collect your personal data into a file crypted in TripleDes.
