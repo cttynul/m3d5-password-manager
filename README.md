@@ -1,4 +1,4 @@
-THIS VERSION IS OUTDATED, THERE WILL SOON BE A NEW RELEASE UNDER A NEW NAME
+THIS VERSION IS OUTDATED, DOWNLOAD NEW VERSION[**HERE**](https://github.com/cttynul/AES256-password-manager) 
 ======
 ###Introduction
 M3D5 Password Manager is a just another password manager that allows you to collect your personal data into a file crypted in TripleDes.
